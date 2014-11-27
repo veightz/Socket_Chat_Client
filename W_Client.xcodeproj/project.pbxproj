@@ -13,6 +13,7 @@
 		168CAAFD1A14818800007A39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168CAAFC1A14818800007A39 /* Images.xcassets */; };
 		168CAB001A14818800007A39 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 168CAAFE1A14818800007A39 /* MainMenu.xib */; };
 		168CAB0C1A14818800007A39 /* W_ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 168CAB0B1A14818800007A39 /* W_ClientTests.m */; };
+		169ED74D1A15F05A00FDADD0 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 169ED74C1A15F05A00FDADD0 /* MainWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 		168CAB051A14818800007A39 /* W_ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = W_ClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		168CAB0A1A14818800007A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		168CAB0B1A14818800007A39 /* W_ClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = W_ClientTests.m; sourceTree = "<group>"; };
+		169ED74B1A15F05A00FDADD0 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		169ED74C1A15F05A00FDADD0 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				168CAAF41A14818800007A39 /* AppDelegate.h */,
 				168CAAF51A14818800007A39 /* AppDelegate.m */,
+				169ED74B1A15F05A00FDADD0 /* MainWindow.h */,
+				169ED74C1A15F05A00FDADD0 /* MainWindow.m */,
 				168CAAFC1A14818800007A39 /* Images.xcassets */,
 				168CAAFE1A14818800007A39 /* MainMenu.xib */,
 				168CAAF91A14818800007A39 /* W_Client.xcdatamodeld */,
@@ -213,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				169ED74D1A15F05A00FDADD0 /* MainWindow.m in Sources */,
 				168CAAFB1A14818800007A39 /* W_Client.xcdatamodeld in Sources */,
 				168CAAF81A14818800007A39 /* main.m in Sources */,
 				168CAAF61A14818800007A39 /* AppDelegate.m in Sources */,
@@ -402,6 +408,7 @@
 				168CAB111A14818800007A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		168CAB121A14818800007A39 /* Build configuration list for PBXNativeTarget "W_ClientTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +417,7 @@
 				168CAB141A14818800007A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

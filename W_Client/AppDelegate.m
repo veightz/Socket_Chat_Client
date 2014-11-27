@@ -7,10 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainWindow.h"
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
+@property (weak) IBOutlet MainWindow *window;
 - (IBAction)saveAction:(id)sender;
 
 @end
